@@ -6,7 +6,7 @@ import 'cros.dart';
 Map<String, dynamic> config = {
   'name': 'app',
   'key': 'A1RPS_ry7G9YuyZP56aEIDv7uvSvoXuyMx4DZhCPq5Q=',
-  'port': 8800,
+  'port': 8000,
   'host': '0.0.0.0',
   'debug': true,
   'url': '',
