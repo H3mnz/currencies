@@ -21,7 +21,7 @@ class HomeController extends Controller {
     if (list == null) {
       return Response.json({'message': 'notFound'}, HttpStatus.notFound);
     }
-    cache.put('list', jsonEncode(list), duration: Duration(days: 1));
+    cache.put('list', jsonEncode(list), duration: Duration(hours: 5));
     return Response.json(
       {
         'message': 'ok',
